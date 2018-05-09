@@ -17,6 +17,7 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <start-class>com.rockydang.springbootdemo.web.Application</start-class>
     </properties>
 
     <!-- Add typical dependencies for a web application -->
@@ -67,7 +68,7 @@
         </pluginRepository>
     </pluginRepositories>
     <modules>
-        <!--<module>api</module>-->
+        <module>api</module>
         <module>web</module>
     </modules>
 </project>
